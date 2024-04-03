@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksScheduler", "TasksScheduler\TasksScheduler.csproj", "{D92EE466-3382-487F-940C-3CFE1DDE2596}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11D05EC7-D6AC-4BE8-A452-D0815E3D99E8}"
+	ProjectSection(SolutionItems) = preProject
+		TasksScheduler\TrayIcon.ico = TasksScheduler\TrayIcon.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D92EE466-3382-487F-940C-3CFE1DDE2596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92EE466-3382-487F-940C-3CFE1DDE2596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92EE466-3382-487F-940C-3CFE1DDE2596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92EE466-3382-487F-940C-3CFE1DDE2596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {298694A1-33FE-4C54-85B2-8A1E93FFD1CD}
+	EndGlobalSection
+EndGlobal

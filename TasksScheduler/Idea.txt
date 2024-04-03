@@ -1,0 +1,42 @@
+Lista zadań:
+
+Można zdefiniować 2 typy zadań - cykliczne i jednorazowe
+
+Program w tle albo przy wyłączaniu zapisuje na dysku ustawienia, zdefiniowane zadania etc.. na początku odczytuje z dysku zadania i na nowo wylicza interwały początkowe na bazie DateTime.Now 
+
+W graficznej liście zadań można przeglądać, dodawać, usuwać, modyfikować zadania
+
+(w przyszłości) Każdemu zadaniu można przypisać typ powiadomienia - głosowe, wizualne czy jakieś tam
+(w dalszej przyszłości) dodać opcję głosowego powiadamiania - lektor czyta tytuł zadania
+
+Dodać opcję do zadań wykrywania osoby przed urządzeniem za pomocą kamerki, np jeśli dane zadanie wymaga by osoba była przy urządzeniu to kamera zczytuje obraz i AI stwierdza czy widzi twarz czy nie i czy uruchomić powiadomienie
+
+Jeśli to byłoby unikanie zasiedzenia z ustawionym interwałym np na 75 minut sprawdzać co tyle czasu czy osoba jest przed urządzeniem jeśli tak - uruchamiać powiadomienie jeśli nie to odliczać kolejny raz - problem jeśli przyjdzie np 10 minut przed alarmem to bedzie to zbędne, trzeba by sprawdzać np co 10 minut czy osoba jest przy urzązeniu i odwlekać alarm w czasie.
+
+To unikanie zasiedzenia trzeba by zrobić raczej osobno albo niech to wszystko jest do skonfigurowania
+
+
+(w dalszej przyszłości) dodać opcję nagrania wiadomości głosowej jako tytuł zadania, która by została odtwarzana
+
+
+Przy przeglądaniu zadań można je usuwać, zrobić jeden formularz do dodawania i modyfikacji jako osobny form
+
+Przy włączeniu TaskListForma widać przygląd zadań, z boku są przyciski dodaj i edytuj zadanie i po kliknięciu sie otwiera nowy form, oraz przycisk usun
+
+(opcjonalnie) zrobić sortowanie zadań według daty, czasu, tytułu, opisu, filtrowanie - może jakaś kontrolka jest od tego
+
+(daaleka przyszłość + bajer) można by to połączyć z zewnętrznymi API, np, żeby wysyłało info o próbie zespołu
+
+# TODO
+ - walidacja zadania
+ - zrobić własny form do powiadomień, w którym bedzie opcja np odłóż za 5 minut // po częsci zrobione
+ - głosowy odczyt powiadomienia // po angielsku
+ - polski głosowy odczyt powiadomienia
+ - informacja gdzieś o ilości nieodklikniętych powiadomien
+ - moze polaczenie z moim excelem np
+ - mozliwosc kilkukrotne powiadomienia ale nie cyklicznego // zrobione
+ - opcja, ktora wymusza odklikniecie powiadomienia
+ - zrobic aby po wylaczeniu appki, ona o takim zadaniu jednorazowym powiadomiła jeśli termin minął
+ - dodac opcje wykrywania przed urządzeniem np poprzez kamere i wtedy powiadamiac
+ - powyzsze mozna polaczyc z powiadamianiem jesli termin minął
+ - dodac opcje powiadom we wolnym terminie, wtedy by trzeba dodać kalendarz do appki
